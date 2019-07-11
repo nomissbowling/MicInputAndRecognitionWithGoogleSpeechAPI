@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MicInputAndRecognitionWithGoogleSpeechAPI", "MicInputAndRecognitionWithGoogleSpeechAPI\MicInputAndRecognitionWithGoogleSpeechAPI.pyproj", "{D61822A1-7431-4F8A-A0E1-5B477F7453B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D61822A1-7431-4F8A-A0E1-5B477F7453B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61822A1-7431-4F8A-A0E1-5B477F7453B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0458FBA-CDD5-4E30-A868-E1D999191A88}
+	EndGlobalSection
+EndGlobal
