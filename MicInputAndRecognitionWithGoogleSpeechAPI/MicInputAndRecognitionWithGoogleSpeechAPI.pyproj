@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d61822a1-7431-4f8a-a0e1-5b477f7453b4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MicInputAndRecognitionWithGoogleSpeechAPI.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +22,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MicInputAndRecognitionWithGoogleSpeechAPI.py" />
+    <Compile Include="ConnectToUnity.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MicInput.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RecognizeWithGoogleSpeechAPI.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
